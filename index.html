@@ -49,13 +49,23 @@
       background-color: #333;
       overflow: hidden;
       width: 100%;
-      height: 60px;
+      height: 40px;
       position: relative;
       line-height: center;
       vertical-align: middle;
       padding-top: 10px;
       font-weight: bold;
-      display: inline-block;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 10px;
+    }
+
+    nav>div {
+      display: flex;
+      vertical-align: center;
+      padding-left: 20px;
+      height: 40px;
     }
 
     nav a {
@@ -65,7 +75,6 @@
       font-size: 17px;
       position: relative;
       text-align: center;
-      justify-content: center;
     }
 
     nav a:hover {
@@ -79,7 +88,7 @@
     }
 
     h1 {
-      font-size: 70px;
+      font-size: 3em;
     }
 
     #titre {
@@ -93,15 +102,19 @@
     ol {
       text-align: center;
     }
+
+    table {
+      width: 100%;
+    }
   </style>
 </head>
 
 <body>
   <section>
     <nav id="top">
-      <a href="#partie1"><img src="../JCVD/images/Karate_silhouette.png" alt="Logo karate" width="30px"> JCVD</a>
-      <a href="#partie2"><img src="../JCVD/images/kiss.png" alt="Kiss" width="30px"> Carlos</a>
-      <a href="#partie3"><img src="../JCVD/images/hs_logo.png" alt="HS Logo" width="30px"> HS World Championship</a>
+      <div><img src="../JCVD/images/Karate_silhouette.png" alt="Logo karate" width="40px"><a href="#partie1"> JCVD</a></div>
+      <div><img src="../JCVD/images/kiss.png" alt="Kiss" width="40px"><a href="#partie2">Carlos</a></div>
+      <div><img src="../JCVD/images/hs_logo.png" alt="HS Logo" width="40px"><a href="#partie3"> HS World Championship</a></div>
     </nav>
     <article id="partie1">
       <h1 id="titre">JCVD</h1>
@@ -137,7 +150,7 @@
     <a href="#top">Retour en haut</a>
     <article id="partie2">
       <h1>Carlos</h1>
-      <img src="../JCVD/images/Carlos_tirelipimpon.jpg" alt="Carlos - Tirelipimpon" width="500">
+      <img src="../JCVD/images/Carlos_tirelipimpon.jpg" alt="Carlos - Tirelipimpon" width="55%">
       <p>Attention les petits loups,<br>
         Vous êtes prêts pour le tirelipimpon?<br>
         Ouais!<br>
@@ -185,7 +198,7 @@
     <a href="#top">Retour en haut</a>
     <article id="partie3">
       <h1>HS World Championship 2020</h1>
-      <img src="../JCVD/images/HS_world_logo.png" alt="HS World Cup logo" width="600">
+      <img src="../JCVD/images/HS_world_logo.png" alt="HS World Cup logo" width="50%">
       <ol>
         <li>Japon</li>
         <li>République Tchèque</li>
@@ -199,19 +212,19 @@
           <th>Nom</th>
           <th>Age</th>
           <th>Pays</th>
-          <th>Photo</th>
+          <th>Classes jouées</th>
         </tr>
         <tr>
-          <td>Glory</td>
+          <td><strong>Glory</strong></td>
           <td>28</td>
-          <td><img src="../JCVD/images/japan.png" alt="Drapeau Japon" width="200"></td>
-          <td><img src="../JCVD/images/Glory_classes.png" alt="Glory - classes jouées" width="600"></td>
+          <td><img src="../JCVD/images/japan.png" alt="Drapeau Japon" width="80%"></td>
+          <td><img src="../JCVD/images/Glory_classes.png" alt="Glory - classes jouées" width="100%"></td>
         </tr>
         <tr>
-          <td>Jarla</td>
+          <td><strong>Jarla</strong></td>
           <td>22</td>
-          <td><img src="../JCVD/images/czech_republic.png" alt="Drapeau République Tchèque" width="200"></td>
-          <td><img src="../JCVD/images/Jarla_classes.png" alt="Jarla - classes jouées" width="600"></td>
+          <td><img src="../JCVD/images/czech_republic.png" alt="Drapeau République Tchèque" width="80%"></td>
+          <td><img src="../JCVD/images/Jarla_classes.png" alt="Jarla - classes jouées" width="100%"></td>
         </tr>
 
       </table>
