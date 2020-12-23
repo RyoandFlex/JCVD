@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JCVD | Accueil</title>
+  <meta name="author" content="RyoandFlex">
+
+  <!--3 BIENVENUE 3-->
 
   <style>
     body {
@@ -15,22 +18,6 @@
       list-style-position: inside;
     }
 
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: separate;
-      width: 70%;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    td,
-    th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-      background-color: #E9D6AB;
-    }
-
     section {
       display: block;
       background-color: #ffffff;
@@ -38,7 +25,19 @@
       margin-left: auto;
       margin-right: auto;
       border: 10px solid black;
-      box-shadow: 20px 20px 20px 20px (45 45 45 0.2);
+      box-shadow: 20px 20px 20px 20px rgba(45, 45, 45, .2);
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    #titre {
+      line-height: 0;
+    }
+
+    .top {
+      line-height: 50px;
     }
 
     p {
@@ -51,7 +50,6 @@
       width: 100%;
       height: 40px;
       position: relative;
-      line-height: center;
       vertical-align: middle;
       padding-top: 10px;
       font-weight: bold;
@@ -87,24 +85,20 @@
       color: white;
     }
 
-    h1 {
-      font-size: 3em;
-    }
-
-    #titre {
-      line-height: 0;
-    }
-
-    .top {
-      line-height: 50px;
-    }
-
-    ol {
-      text-align: center;
-    }
-
     table {
+      font-family: arial, sans-serif;
+      border-collapse: separate;
       width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      background-color: #E9D6AB;
     }
   </style>
 </head>
@@ -112,16 +106,19 @@
 <body>
   <section>
     <nav id="top">
-      <div><img src="../JCVD/images/Karate_silhouette.png" alt="Logo karate" width="40px"><a href="#partie1"> JCVD</a></div>
+      <div><img src="../JCVD/images/Karate_silhouette.png" alt="Logo karate" width="40px"><a href="#partie1"> JCVD</a>
+      </div>
       <div><img src="../JCVD/images/kiss.png" alt="Kiss" width="40px"><a href="#partie2">Carlos</a></div>
-      <div><img src="../JCVD/images/hs_logo.png" alt="HS Logo" width="40px"><a href="#partie3"> HS World Championship</a></div>
+      <div><img src="../JCVD/images/hs_logo.png" alt="HS Logo" width="40px"><a href="#partie3"> HS World
+          Championship</a></div>
     </nav>
     <article id="partie1">
       <h1 id="titre">JCVD</h1>
       <h2>The man, the myth, the legend</h2>
       <h3><em>"Quand j'étais jeune, j'étais très con. Je suis resté très jeune."</em></h3>
       <img src="../JCVD/images/JCVD_split.jpg" alt="JCVD, le grand écart facile" width="100%">
-      <p>Si je t'emmerde, tu me le dis, j'ai vraiment une grande mission car il y a de bonnes règles, de bonnes rules
+      <p>
+        Si je t'emmerde, tu me le dis, j'ai vraiment une grande mission car il y a de bonnes règles, de bonnes rules
         car
         l'aboutissement de l'instinct, c'est l'amour ! Et tu as envie de le dire au monde entier, including yourself.
 
@@ -131,8 +128,10 @@
 
         Je me souviens en fait, je sais que, grâce à ma propre vérité il y a de bonnes règles, de bonnes rules et c'est
         une
-        sensation réelle qui se produit si on veut ! Pour te dire comme on a beaucoup à apprendre sur la vie !</p>
-      <p>Même si on se ment, ce n'est pas un simple sport car on vit dans une réalité qu'on a créée et que j'appelle
+        sensation réelle qui se produit si on veut ! Pour te dire comme on a beaucoup à apprendre sur la vie !
+      </p>
+      <p>
+        Même si on se ment, ce n'est pas un simple sport car on vit dans une réalité qu'on a créée et que j'appelle
         illusion et c'est très, très beau d'avoir son propre moi-même ! Mais ça, c'est uniquement lié au spirit.
 
         You see, après il faut s'intégrer tout ça dans les environnements et on est tous capables de donner des
@@ -144,7 +143,8 @@
         Tu comprends, je suis mon meilleur modèle car là, j'ai un chien en ce moment à côté de moi et je le caresse, et
         parfois c'est bon parfois c'est pas bon. Tu vas te dire : J'aurais jamais cru que le karaté guy pouvait parler
         comme
-        ça !</p>
+        ça !
+      </p>
     </article>
 
     <a href="#top">Retour en haut</a>
@@ -208,11 +208,13 @@
       <a href="https://playhearthstone.com/fr-fr/esports/tournament/world-championship-2020/">Site officiel
         playhearthstone.com</a><br><br>
       <table>
-        <tr>
+        <thead>
           <th>Nom</th>
           <th>Age</th>
           <th>Pays</th>
           <th>Classes jouées</th>
+        </thead>
+        <tr>
         </tr>
         <tr>
           <td><strong>Glory</strong></td>
@@ -226,7 +228,7 @@
           <td><img src="../JCVD/images/czech_republic.png" alt="Drapeau République Tchèque" width="80%"></td>
           <td><img src="../JCVD/images/Jarla_classes.png" alt="Jarla - classes jouées" width="100%"></td>
         </tr>
-
+        </tbody>
       </table>
       <a href="#top">Retour en haut</a>
       <br><br>
